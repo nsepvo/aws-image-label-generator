@@ -4,7 +4,7 @@ A fully serverless image analysis application built on AWS that allows users to 
 
 ## Live Demo
 
-[https://your-amplify-url.amplifyapp.com/](https://staging.d3w1w0m6iehn9k.amplifyapp.com/)
+https://staging.d3w1w0m6iehn9k.amplifyapp.com/
 
 ## Architecture
 
@@ -16,12 +16,12 @@ This project implements a fully serverless image recognition system without requ
 
 ## AWS Services Used
 
-* **AWS Amplify** – Frontend hosting and deployment
-* **Amazon API Gateway** – REST API endpoint for requests
-* **AWS Lambda** – Backend logic and image processing
-* **Amazon S3** – Image storage and presigned URL uploads
-* **Amazon Rekognition** – AI-powered image analysis and label detection
-* **Amazon CloudWatch** – Logging and monitoring
+- AWS Amplify – Frontend hosting and deployment
+- Amazon API Gateway – REST API endpoint for requests
+- AWS Lambda – Backend logic and image processing
+- Amazon S3 – Image storage and presigned URL uploads
+- Amazon Rekognition – AI-powered image analysis and label detection
+- Amazon CloudWatch – Logging and monitoring
 
 When a user uploads an image:
 
@@ -37,23 +37,25 @@ When a user uploads an image:
 
 ## Design Decisions
 
-* Serverless-first architecture to eliminate server management
-* Direct-to-S3 uploads using presigned URLs to improve scalability and reduce Lambda processing overhead
-* Amazon Rekognition for managed AI-powered image analysis
-* API Gateway as a secure public-facing endpoint
-* CloudWatch for built-in observability and debugging
-* AWS Amplify for simple frontend deployment and hosting
+- Serverless-first architecture to eliminate server management
+- Direct-to-S3 uploads using presigned URLs to improve scalability and reduce Lambda processing overhead
+- Amazon Rekognition for managed AI-powered image analysis
+- API Gateway as a secure public-facing endpoint
+- CloudWatch for built-in observability and debugging
+- AWS Amplify for simple frontend deployment and hosting
 
 ## Key Learnings
 
-* Designing serverless architectures using AWS services
-* Generating and using S3 presigned URLs
-* Building direct browser-to-S3 upload workflows
-* Integrating Amazon Rekognition into serverless applications
-* API Gateway and Lambda integration patterns
-* Troubleshooting CORS and regional endpoint configuration issues
-* Frontend deployment with AWS Amplify
-* Observability using CloudWatch logs and metrics
+- Designing serverless architectures using AWS services
+- Generating and using S3 presigned URLs
+- Building direct browser-to-S3 upload workflows
+- Integrating Amazon Rekognition into serverless applications
+- API Gateway and Lambda integration patterns
+- Troubleshooting CORS and regional endpoint configuration issues
+- Frontend deployment with AWS Amplify
+- Observability using CloudWatch logs and metrics
+
+---
 
 ## Summary
 
@@ -63,5 +65,5 @@ This project demonstrates a serverless image analysis application built using AW
 
 Open to internship and graduate opportunities in software engineering and cloud computing.
 
-**Email:** [nevenspooner03@gmail.com](mailto:nevenspooner03@gmail.com)
-**LinkedIn:** https://www.linkedin.com/in/neven-spooner/
+- Email: nevenspooner03@gmail.com
+- LinkedIn: https://www.linkedin.com/in/neven-spooner/
