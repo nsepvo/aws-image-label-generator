@@ -1,6 +1,6 @@
 # AI Image Label Generator
 
-A fully serverless image analysis application built on AWS that allows users to upload images and automatically identify objects, animals, scenes, and other visual content using Amazon Rekognition. Images are uploaded directly to Amazon S3 using presigned URLs, with the frontend deployed using AWS Amplify and monitoring handled through CloudWatch.
+A fully serverless image analysis application built on AWS that allows users to upload images and automatically identify objects, animals, scenes, and other visual content using Amazon Rekognition. Images are uploaded directly to Amazon S3 using presigned URLs, with the frontend deployed using AWS Amplify.
 
 ## Live Demo
 
@@ -21,7 +21,6 @@ This project implements a fully serverless image recognition system without requ
 - AWS Lambda – Backend logic and image processing
 - Amazon S3 – Image storage and presigned URL uploads
 - Amazon Rekognition – AI-powered image analysis and label detection
-- Amazon CloudWatch – Logging and monitoring
 
 When a user uploads an image:
 
@@ -33,7 +32,6 @@ When a user uploads an image:
 6. Lambda calls Amazon Rekognition to analyse the image
 7. Rekognition returns detected labels and confidence scores
 8. The frontend displays the results to the user
-9. CloudWatch logs execution, errors, and performance metrics
 
 ## Design Decisions
 
@@ -41,7 +39,6 @@ When a user uploads an image:
 - Direct-to-S3 uploads using presigned URLs to improve scalability and reduce Lambda processing overhead
 - Amazon Rekognition for managed AI-powered image analysis
 - API Gateway as a secure public-facing endpoint
-- CloudWatch for built-in observability and debugging
 - AWS Amplify for simple frontend deployment and hosting
 
 ## Key Learnings
@@ -53,7 +50,6 @@ When a user uploads an image:
 - API Gateway and Lambda integration patterns
 - Troubleshooting CORS and regional endpoint configuration issues
 - Frontend deployment with AWS Amplify
-- Observability using CloudWatch logs and metrics
 
 ---
 
